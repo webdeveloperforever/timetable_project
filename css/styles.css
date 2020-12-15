@@ -1,9 +1,20 @@
- body{
-	margin:0;
-	color:#6a6f8c;
-	background:#d8d8d8;
-	 font-family: sans-serif;
-}
+ @media (min-width: 992px){      body{
+     margin:0;
+    color:#6a6f8c;
+     font-family: sans-serif;
+     background: url(https://images.static-collegedunia.com/public/college_data/images/appImage/13911_KGRCET_New.jpg);
+     font-family: sans-serif;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+    }
+    #p1{
+        margin-top: -5px;
+        text-align: center;
+        font-size: 40px;
+        background-color: rgba(207,69,92,0.8);
+        color: white;
+    }
 *,:after,:before
 {
     box-sizing:border-box;
@@ -17,81 +28,77 @@
     clear:both;
     display:block;
 }
-a{
+  /*a{
     color:inherit;
     text-decoration:none;
      
-}
-
+}*/
 .login-wrap{
-	width:100%;
-	margin:auto;
-	max-width:430px;
-	min-height:530px;
-    margin-top: 65px;
-	position:relative;
+    width:100%;
+    margin:auto;
+    max-width:450px;
+    min-height:475px;
+    margin-top: -10px;
+    position:relative;
     border: 10px solid #111;
     border-radius: 25px;
-	box-shadow:0 12px 25px 5px rgba(0,0,0,.24),0 20px 50px 0 rgba(0,0,0,.19);
+    box-shadow:0 12px 25px 5px rgba(0,0,0,.24),0 20px 50px 0 rgba(0,0,0,.19);
      
+}.login-html{
+    width:100%;
+    height:100%;
+    position:absolute;
+    padding:80px 70px 50px 70px;
+background:rgba(0,0,0,0.8);
 }
-.login-html{
-	width:100%;
-	height:100%;
-	position:absolute;
-	padding:80px 70px 50px 70px;
-background:#111;
-}
-.login-html .sign-in-htm,
-.login-html .sign-up-htm{
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	position:absolute;
-	transform:rotateY(180deg);
-	backface-visibility:hidden;
-	transition:all .4s linear;
+.login-html .sign-in-htm/*
+.login-html .sign-up-htm*/{
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    position:absolute;
+    backface-visibility:hidden;
+    transition:all .4s linear;
 }
 .login-html .sign-in,
-.login-html .sign-up,
 .login-form .group .check{
-	display:none;
+    display:none;
 }
 .login-html .tab,
 .login-form .group .label,
 .login-form .group .button{
-	text-transform:uppercase;
+    text-transform:uppercase;
 }
 .login-html .tab{
-	font-size:20px;
-	margin-right:15px;
-	padding-bottom:3px;
-	margin:0 15px 10px 0;
-	display:inline-block;
-	border-bottom:2px solid transparent;
+    font-size:20px;
+    margin-right:15px;
+    padding-bottom:3px;
+    margin:0 15px 10px 0;
+    display:inline-block;
+    border-bottom:2px solid transparent;
 }
 .login-html .sign-in:checked + .tab,
 .login-html .sign-up:checked + .tab{
-	color:#fff;
-	border-color:#1161ee;
+    color:#fff;
+    border-color:#1161ee;
 }
 .login-form{
     margin-top: 15px;
-	min-height:300px;
-	position:relative;
-	perspective:1000px;
-	transform-style:preserve-3d;
+    min-height:300px;
+    position:relative;
+    perspective:1000px;
+    transform-style:preserve-3d;
 }
 .login-form .group{
-	margin-bottom:15px;
+    margin-bottom:15px;
 }
 .login-form .group .label,
 .login-form .group .input,
 .login-form .group .button{
-	width:100%;
-	color:#111;
-	display:block;
+    width:100%;
+    color:#111;
+    display:block;
     outline: none;
 }
 .login-form .group .input,
@@ -120,6 +127,268 @@ background:#111;
     font-weight: 700;
     cursor: pointer;
 }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    body{
+     margin:0;
+     font-family: sans-serif;
+     background: url(https://images.static-collegedunia.com/public/college_data/images/appImage/13911_KGRCET_New.jpg);
+     font-family: sans-serif;
+    background-position: center;
+     background-size: cover;
+     height: 750px;
+    background-repeat: no-repeat;
+    }
+    #p1{
+        margin-top: -5px;
+        text-align: center;
+        font-size: 35px;
+        background-color: rgba(207,69,92,0.8);
+        color: white;
+    }
+*,:after,:before
+{
+    box-sizing:border-box;
+}
+.clearfix:after,.clearfix:before
+{
+    content:'';
+    display:table;
+}
+.clearfix:after{
+    clear:both;
+    display:block;
+}
+  /*a{
+    color:inherit;
+    text-decoration:none;
+     
+}*/
+.login-wrap{
+    width:100%;
+    margin:auto;
+    max-width:350px;
+    min-height:475px;
+    position:relative;
+    border: 10px solid #111;
+    border-radius: 25px;
+    box-shadow:0 12px 25px 5px rgba(0,0,0,.24),0 20px 50px 0 rgba(0,0,0,.19);
+     
+}.login-html{
+    width:100%;
+    height:100%;
+    position:absolute;
+    padding:80px 70px 50px 70px;
+background:rgba(0,0,0,0.8);
+}
+.login-html .sign-in-htm/*
+.login-html .sign-up-htm*/{
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    position:absolute;
+    backface-visibility:hidden;
+    transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-form .group .check{
+    display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+    text-transform:uppercase;
+}
+.login-html .tab{
+    font-size:20px;
+    margin-right:15px;
+    padding-bottom:3px;
+    margin:0 15px 10px 0;
+    display:inline-block;
+    border-bottom:2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+    color:#fff;
+    border-color:#1161ee;
+}
+.login-form{
+    margin-top: 15px;
+    min-height:300px;
+    position:relative;
+    perspective:1000px;
+    transform-style:preserve-3d;
+}
+.login-form .group{
+    margin-bottom:15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+    width:100%;
+    color:#111;
+    display:block;
+    outline: none;
+}
+.login-form .group .input,
+.login-form .group .button
+{
+    border: none;
+    padding: 15px 20px;
+    margin-top: 4px;
+    border-radius: 25px;
+    background: #c8c8c8;
+}
+.login-form .group input[data-type="password"]
+{
+    text-security: circle;
+}
+.login-form .group .label
+{
+    color: #aaa;
+    font-size: 13px;
+}
+.login-form .group .button
+{
+    background: #40a8c4;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+}
+ @media (max-width: 767px){      body{
+     margin:0;
+    color:#6a6f8c;
+     font-family: sans-serif;
+     background: url(https://images.static-collegedunia.com/public/college_data/images/appImage/13911_KGRCET_New.jpg);
+     font-family: sans-serif;
+     background-position: center;
+     background-size: cover;
+     height: 780px;
+     background-repeat: no-repeat;
+    }
+    #p1{
+        margin-top: -5px;
+        text-align: center;
+        font-size: 33px;
+        background-color: rgba(207,69,92,0.8);
+        color: white;
+    }
+*,:after,:before
+{
+    box-sizing:border-box;
+}
+.clearfix:after,.clearfix:before
+{
+    content:'';
+    display:table;
+}
+.clearfix:after{
+    clear:both;
+    display:block;
+}
+  /*a{
+    color:inherit;
+    text-decoration:none;
+     
+}*/
+.login-wrap{
+    width:100%;
+    margin:auto;
+    max-width:325px;
+    min-height:475px;
+    position:relative;
+    border: 10px solid #111;
+    border-radius: 25px;
+    box-shadow:0 12px 25px 5px rgba(0,0,0,.24),0 20px 50px 0 rgba(0,0,0,.19);    
+}
+.login-html{
+    width:100%;
+    height:100%;
+    position:absolute;
+    padding:80px 70px 50px 70px;
+background:rgba(0,0,0,0.8);
+}
+.login-html .sign-in-htm/*
+.login-html .sign-up-htm*/{
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    position:absolute;
+    backface-visibility:hidden;
+    transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-form .group .check{
+    display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+    text-transform:uppercase;
+}
+.login-html .tab{
+    font-size:20px;
+    margin-right:15px;
+    padding-bottom:3px;
+    margin:0 15px 10px 0;
+    display:inline-block;
+    border-bottom:2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+    color:#fff;
+    border-color:#1161ee;
+}
+.login-form{
+    margin-top: 15px;
+    min-height:300px;
+    position:relative;
+    perspective:1000px;
+    transform-style:preserve-3d;
+}
+.login-form .group{
+    margin-bottom:15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+    width:100%;
+    color:#111;
+    display:block;
+    outline: none;
+}
+.login-form .group .input,
+.login-form .group .button
+{
+    border: none;
+    padding: 15px 20px;
+    margin-top: 4px;
+    border-radius: 25px;
+    background: #c8c8c8;
+}
+.login-form .group input[data-type="password"]
+{
+    text-security: circle;
+}
+.login-form .group .label
+{
+    color: #aaa;
+    font-size: 13px;
+}
+.login-form .group .button
+{
+    background: #40a8c4;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+}
+/*
 .login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm
 {
     transform: rotate(0);
@@ -138,23 +407,4 @@ background:#111;
 {
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
